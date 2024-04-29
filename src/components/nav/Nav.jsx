@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { FaTime } from "react-icons/fa";
-import { CimenuFries } from "react-icons/ci";
+import { FaTimes } from "react-icons/fa";
+import { CiMenuFries } from "react-icons/ci";
 
 const Nav = () => {
   const [click, setClick] = useState(false);
@@ -84,7 +84,7 @@ const Nav = () => {
           {click && content} {/*useState*/}
         </div>
         <button className="block sm:hidden transition" onClick={handleClick}>
-          {click ? <FaTime /> : <CimenuFries />}
+          {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>
     </nav>
