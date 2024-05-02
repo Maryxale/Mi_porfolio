@@ -19,7 +19,7 @@ const Nav = () => {
               Home
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Abot">
+          <Link spy={true} smooth={true} to="About">
             <li className="my-4 py-4 border-b border-Purple-800 hover:bg-Purple-800 hover:rounded">
               About
             </li>
@@ -57,7 +57,7 @@ const Nav = () => {
                   Home
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Abot">
+              <Link spy={true} smooth={true} to="About">
                 <li className="hover:text-fuchsia-600 transition border-b-2 border-Purple-900 hover:border-fuchsia-600 cursor-pointer">
                   About
                 </li>

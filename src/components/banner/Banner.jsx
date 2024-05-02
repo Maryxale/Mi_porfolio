@@ -3,23 +3,26 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import img from "../../assets/img_profile.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Banner = () => {
-  AOS.init({
-    easing: "ease-out-quart",
-    delay: 0,
-    duration: 750,
-  });
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-quart",
+      delay: 0,
+      duration: 750,
+    });
+  }, []);
   return (
     <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
-      <div
-        data-aos="fade-up"
-        className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white"
-      >
-        <h1 className="text-[52px] font-semibold mb-8 leading-normal uppercase">
+      <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
+        <h1
+          data-aos="fade-right"
+          className="text-[52px] font-semibold mb-8 leading-normal uppercase"
+        >
           Bienvenido a <span className="text-fuchsia-500">mi porfolio</span>
         </h1>
-        <p>
+        <p data-aos="fade-left">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
           optio labore, consequatur, officiis minus sit explicabo impedit, ipsum
           enim expedita cupiditate reiciendis amet in eveniet possimus nihil
@@ -53,6 +56,7 @@ const Banner = () => {
         </div>
       </div>
       <img
+        data-aos="fade-up"
         src={img}
         width={290}
         height={290}
