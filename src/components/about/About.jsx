@@ -1,4 +1,5 @@
 import img from "../../assets/img_profile.jpg";
+import pdf from "../../assets/Maria Alejandra Romero.pdf";
 
 const About = () => {
   return (
@@ -22,17 +23,23 @@ const About = () => {
           Sobre mi
         </h1>
         <p data-aos="fade-left">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          optio labore, consequatur, officiis minus sit explicabo impedit, ipsum
-          enim expedita cupiditate reiciendis amet in eveniet possimus nihil
-          fuga reprehenderit aspernatur.
+          Full Stack Developer con background en ciencias sociales (Sociología)
+          que me ayudaron a obtener habilidades como: trabajar en equipo,
+          analizar datos de forma masiva, resolución de problemas, entre otros.
+          Conocimientos en metodologías ágiles, GIT, estructura de datos,
+          algoritmos, frameworks CSS,Github, Sequelize. Experiencia en
+          desarrollo de Front-End y Back End, Postgresql con tecnologías como:
+          React, Redux, Vite, NodeJs, Express, entre otras. Autodidacta,
+          dedicación, adaptabilidad, Empatía.
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
-              <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
-                CV
-              </button>
+              <a href={pdf} target="_blank" rel="noopener noreferrer">
+                <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">
+                  CV
+                </button>
+              </a>
             </div>
           </div>
         </div>

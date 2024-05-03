@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import img from "../../assets/img_profile.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,33 +23,29 @@ const Banner = () => {
           Bienvenido a <span className="text-fuchsia-500">mi porfolio</span>
         </h1>
         <p data-aos="fade-left">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          optio labore, consequatur, officiis minus sit explicabo impedit, ipsum
-          enim expedita cupiditate reiciendis amet in eveniet possimus nihil
-          fuga reprehenderit aspernatur.
+          Full Stack Developer con formacion en Javascript, NodeJS, React,
+          Redux, Vite, Posgresql, entre otras tecnologias del sector.Realizando
+          proyectos con API rest
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
               <a
-                href=""
+                href="https://github.com/Maryxale"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <AiFillGithub className="text-[28px]" />
               </a>
 
               <a
-                href=""
+                href="https://www.linkedin.com/in/maria-alejandra-romero-bencomo-44497a123/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
               >
                 <FaLinkedinIn className="text-[28px]" />
-              </a>
-
-              <a
-                href=""
-                className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2"
-              >
-                <FaInstagram className="text-[28px]" />
               </a>
             </div>
           </div>

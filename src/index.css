@@ -26,3 +26,8 @@
 .b_glow {
   box-shadow: 0 0 15px rgb(143, 114, 140);
 }
+
+.create {
+    color: fuchsia;
+    text-shadow: 0 0 30px #fff;
+}
