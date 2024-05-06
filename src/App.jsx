@@ -3,7 +3,6 @@ import Banner from "./components/banner/Banner";
 import About from "./components/about/About";
 import Service from "./components/service/Service";
 import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
 import { BallTriangle } from "react-loader-spinner";
@@ -38,7 +37,6 @@ function App() {
           <About />
           <Service />
           <Projects />
-          <Contact />
           <Footer />
         </div>
       )}

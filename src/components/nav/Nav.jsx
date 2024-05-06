@@ -35,11 +35,11 @@ const Nav = () => {
               Projects
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Contact">
+          {/* <Link spy={true} smooth={true} to="Contact">
             <li className="my-4 py-4 border-b border-Purple-800 hover:bg-Purple-800 hover:rounded">
               Contact
             </li>
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </>
@@ -75,11 +75,11 @@ const Nav = () => {
                   Projects
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Contact">
+              {/* <Link spy={true} smooth={true} to="Contact">
                 <li className="hover:text-fuchsia-600 transition border-b-2 border-Purple-900 hover:border-fuchsia-600 cursor-pointer">
                   Contact
                 </li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
         </div>
